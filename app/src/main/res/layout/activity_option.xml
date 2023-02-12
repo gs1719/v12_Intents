@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_marginVertical="10dp"
+    android:paddingVertical="10dp"
+    tools:context=".OptionActivity">
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button2"
+            android:text="@string/android_development"
+            style="@style/Option_button"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button3"
+            style="@style/Option_button"
+            android:text="@string/webdevelopment" />
+
+
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button4"
+            android:text="@string/machine_learning"
+            style="@style/Option_button"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button5"
+            android:text="@string/blockchain"
+            style="@style/Option_button"/>
+
+
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSupport"
+            style="@style/btn_implicit_intent"
+            android:text="@string/support"
+            >
+
+        </com.google.android.material.button.MaterialButton>
+
+</LinearLayout>

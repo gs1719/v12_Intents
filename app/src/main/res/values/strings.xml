@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">v12</string>
+    <string name="android_development">Android Development</string>
+    <string name="webdevelopment">Web Development</string>
+    <string name="machine_learning">Machine Learning</string>
+    <string name="blockchain">Blockchain</string>
+    <string name="support">Support</string>
+    <string name="MainPage">Learn About Some Fields in Computer Science</string>
+    <string name="letsgo">Let\'s Learn</string>
+    <string name="tools_used">Development Tools Used</string>
+    <string name="language_used">Languages Used</string>
+    <string name="more">Learn More</string>
+</resources>

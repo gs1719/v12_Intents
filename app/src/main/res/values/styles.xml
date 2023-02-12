@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Option_button">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="textAllCaps">true</item>
+        <item name="cornerRadius">10dp</item>
+        <item name="shapeCornerFamily">rounded</item>
+        <item name="cornerSize">10dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="tv_used" parent="android:Widget.TextView">
+        <item name="android:layout_height">
+            wrap_content
+        </item>
+        <item name="android:layout_width">
+            match_parent
+        </item>
+
+        <item name="android:layout_gravity">
+            center_horizontal
+        </item>
+        <item name="android:gravity">
+            center_horizontal
+        </item>
+        <item name="android:textSize">
+            25sp
+        </item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+
+    <style name="btn_implicit_intent" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="cornerRadius">10dp</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.App.CornerSize10Percent" parent="">
+        <item name="cornerSize">10%</item>
+    </style>
+
+    <style name="Imageview">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">200dp</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <style name="tv_UnderCardView">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:gravity">center</item>
+
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="cardview">
+
+        <item name="android:layout_height">230dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+
+</resources>
