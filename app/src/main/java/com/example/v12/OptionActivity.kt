@@ -6,8 +6,6 @@ import android.net.Uri
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.os.StrictMode
-import android.os.StrictMode.VmPolicy
 import android.widget.Button
 import android.widget.Toast
 import androidx.annotation.RequiresApi
@@ -18,13 +16,14 @@ class OptionActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_option)
         onClickBtn()
+
         //Added strict mode to detect unsafe Intent call prevents from intent loop etc
-        StrictMode.setVmPolicy(VmPolicy.Builder()
-            .detectUnsafeIntentLaunch()
-            .build())
+//        StrictMode.setVmPolicy(VmPolicy.Builder()
+//            .detectUnsafeIntentLaunch()
+//            .build())
     }
 
-    fun onClickBtn()
+    private fun onClickBtn()
     {
         val supportButton = findViewById<Button>(R.id.btnSupport)
         val androidDevButton = findViewById<Button>(R.id.button2)
